@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorLightAccent">#C3E7DF</color>
+    <color name="colorLightSlateBlue">#8470ff</color>
+
+    <color name="cardBackgroundColor">#FBFBFB</color>
+    <color name="cardBackgroundDarkColor">#0E0E0E</color>
+    <color name="titleTextColor">#256BD6</color>
+    <color name="contentTextColor">#999DA4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FFC107</color>
+    <color name="greyLineColor">#E7E7E7</color>
+
+    <color name="totCases">#D8D77D</color>
+    <color name="active">#8FAFE0</color>
+    <color name="recovered">#7DD8C5</color>
+    <color name="deaths">#E08FB1</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@drawable/main_logo_transparent" />
+
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_style"
+        android:text="Guest"
+        android:textColor="#464143" />
+
+    <TextView
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="OR"
+        android:textColor="#464143"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/options"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_style"
+        android:text="Sign In"
+        android:textColor="#464143" />
+
+</RelativeLayout>

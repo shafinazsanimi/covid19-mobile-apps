@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <EditText
+        android:id="@+id/search_location"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:hint="Search Location"
+        android:drawablePadding="15dp"
+        android:background="@drawable/search_edittext_style"
+        android:drawableLeft="@drawable/ic_search" />
+
+</RelativeLayout>
